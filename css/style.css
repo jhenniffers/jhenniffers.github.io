@@ -107,6 +107,12 @@ div#resultButton:hover {
     font-weight: 700;
 }
 
+.developer-area a:hover {
+text-shadow: 1px 1px 10px #fff;
+font-size: 1.15em;
+transition: 1.7s;
+}
+
 @media (max-width: 480px) {
 
     .calculator-display,
