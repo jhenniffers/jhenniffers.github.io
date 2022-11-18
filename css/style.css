@@ -27,6 +27,7 @@ main.calculator {
 }
 
 .calculator-display {
+    overflow: hidden;
     box-sizing: border-box;
     width: 30vw;
     padding: 20px;
@@ -96,8 +97,36 @@ div#resultButton:hover {
     background-color: #AA2442;
 }
 
-@media (min-width: 769px) {
-    .calculator-display, .calculator-buttons {
-        
+.developer-area {
+    color: #FFF;
+}
+
+.developer-area a{
+    color: #FFF;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+@media (max-width: 480px) {
+
+    .calculator-display,
+    .calculator-buttons {
+        width: 95vw;
+    }
+
+    #display {
+        font-size: 2.5em;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 850px) {
+
+    .calculator-display,
+    .calculator-buttons {
+        width: 85vw;
+    }
+
+    #display {
+        font-size: 3em;
     }
 }
